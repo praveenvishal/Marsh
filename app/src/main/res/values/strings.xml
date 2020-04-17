@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="capture_button_alt">Capture</string>
+    <string name="switch_camera_button_alt">Switch camera</string>
+    <string name="gallery_button_alt">Open Gallery</string>
+    <string name="back_button_alt">Back</string>
+    <string name="share_button_alt">Share</string>
+    <string name="share_hint">Share using</string>
+    <string name="capture_mode_camera">Open Camera</string>
+    <string name="capture_mode_hdr">HDR</string>
+    <string name="capture_mode_night">Night</string>
+    <string name="delete_button_alt">Delete</string>
+    <string name="delete_dialog">Delete current photo?</string>
+    <string name="delete_title">Confirm</string>
+    <string name="textOpenCamera">Camera</string>
+    <string name="textOpenGallery">Gallery</string>
+    <string name="saveImageToCloud">Save</string>
+    <string name="file_provider_authority" translatable="false">com.android.assignment.fileprovider</string>
+    <string name="textCompleteSavingImage">Image saved successfully</string>
+    <string name="grant_access_to_read">Please grant permissions to access gallery.</string>
+    <string name="textOpenSaved">See Saved Images</string>
+
+</resources>

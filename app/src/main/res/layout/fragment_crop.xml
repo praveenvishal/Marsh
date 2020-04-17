@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack">
+
+        <com.theartofdev.edmodo.cropper.CropImageView
+            app:cropScaleType="centerCrop"
+            android:id="@+id/imageView"
+            app:cropBorderLineThickness="1dp"
+            android:layout_width="match_parent"
+            app:cropGuidelines="on"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/imageViewCrop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_medium"
+            android:src="@drawable/ic_crop_white_24dp" />
+
+
+    </RelativeLayout>
+</layout>

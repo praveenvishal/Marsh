@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+
+        <import type="android.view.View"></import>
+        <variable
+            name="clickListener"
+            type="android.view.View.OnClickListener" />
+    </data>
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonOpenCamera"
+                android:backgroundTint="@color/colorBlack"
+                android:onClick="@{(v)-> clickListener.onClick(v)}"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="@string/textOpenCamera"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/buttonOpenGallery"
+                android:backgroundTint="@color/colorBlack"
+                android:onClick="@{(v)-> clickListener.onClick(v)}"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="@string/textOpenGallery"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:backgroundTint="@color/colorBlack"
+                android:id="@+id/buttonOpenUploadList"
+                android:onClick="@{(v)-> clickListener.onClick(v)}"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="@string/textOpenSaved"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+    </FrameLayout>
+</layout>
