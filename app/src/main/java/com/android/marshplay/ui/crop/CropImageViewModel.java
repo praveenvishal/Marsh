@@ -13,8 +13,8 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.observers.DisposableSingleObserver;
 import io.reactivex.schedulers.Schedulers;
-import com.android.marshplay.data.rest.ImageRepository;
-import com.android.marshplay.data.local.Image;
+import com.android.marshplay.data.repository.ImageRepository;
+import com.android.marshplay.data.local.entity.Image;
 
 public class CropImageViewModel extends ViewModel {
 

@@ -12,7 +12,7 @@ import com.github.siyamed.shapeimageview.RoundedImageView;
 import java.util.List;
 
 import com.android.marshplay.R;
-import com.android.marshplay.data.local.Image;
+import com.android.marshplay.data.local.entity.Image;
 import com.android.marshplay.util.GlideUtil;
 
 public class SavedImageListAdapter extends RecyclerView.Adapter<SavedImageListAdapter.ImageModel> {

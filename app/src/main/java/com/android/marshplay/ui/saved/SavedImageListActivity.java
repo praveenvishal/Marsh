@@ -19,7 +19,7 @@ import javax.inject.Inject;
 
 import com.android.marshplay.R;
 import com.android.marshplay.base.BaseActivity;
-import com.android.marshplay.data.local.Image;
+import com.android.marshplay.data.local.entity.Image;
 import com.android.marshplay.databinding.ActivityUploadBinding;
 import com.android.marshplay.ui.viewmodel.ImageListViewModel;
 import com.android.marshplay.util.GlideUtil;

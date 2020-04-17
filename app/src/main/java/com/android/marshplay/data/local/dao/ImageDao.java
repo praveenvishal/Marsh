@@ -1,9 +1,11 @@
-package com.android.marshplay.data.local;
+package com.android.marshplay.data.local.dao;
 
 import androidx.room.Dao;
 import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
+
+import com.android.marshplay.data.local.entity.Image;
 
 import java.util.List;
 

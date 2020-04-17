@@ -1,4 +1,4 @@
-package com.android.marshplay.data.rest;
+package com.android.marshplay.data.repository;
 
 import java.util.List;
 import java.util.concurrent.Callable;
@@ -7,8 +7,8 @@ import javax.inject.Inject;
 
 import io.reactivex.Completable;
 import io.reactivex.Single;
-import com.android.marshplay.data.local.ImageDao;
-import com.android.marshplay.data.local.Image;
+import com.android.marshplay.data.local.dao.ImageDao;
+import com.android.marshplay.data.local.entity.Image;
 
 public class ImageRepository {
 

@@ -1,4 +1,4 @@
-package com.android.marshplay.data.local;
+package com.android.marshplay.data.local.entity;
 
 import androidx.annotation.NonNull;
 import androidx.room.Entity;

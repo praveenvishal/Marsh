@@ -8,8 +8,8 @@ import javax.inject.Singleton;
 
 import dagger.Module;
 import dagger.Provides;
-import com.android.marshplay.data.local.ImageDao;
-import com.android.marshplay.di.util.AppDataBase;
+import com.android.marshplay.data.local.dao.ImageDao;
+import com.android.marshplay.data.local.AppDataBase;
 import com.android.marshplay.util.DatabaseConstants;
 
 @Module(includes = ViewModelModule.class)

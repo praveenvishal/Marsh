@@ -1,10 +1,10 @@
-package com.android.marshplay.di.util;
+package com.android.marshplay.data.local;
 
 import androidx.room.Database;
 import androidx.room.RoomDatabase;
 
-import com.android.marshplay.data.local.ImageDao;
-import com.android.marshplay.data.local.Image;
+import com.android.marshplay.data.local.dao.ImageDao;
+import com.android.marshplay.data.local.entity.Image;
 
 
 @Database(entities = {Image.class}, version = 2, exportSchema = false)
