@@ -3,7 +3,7 @@ In this project a custom camera using CameraX with basic functionalities like zo
 Upon clicking image user can crop the image and save it to the cloud.
 For the c;oud storage I have used azure storage.
 Architecture of this project followed the MVVM design pattern.
-# Third Party Libraries:
+Third Party Libraries:
 1.Android Cropper
 2.Shape ImageView
 3.Chris Banes Photoview
